@@ -5,4 +5,10 @@
     <mat-card-subtitle class="subtitle">
         Products registration system
     </mat-card-subtitle>
+    <mat-card-content>
+        <strong>Didatic Only</strong>
+        <ul>
+            <li *myFor="let n in [1,2,3] using 'text'">{{ n }}</li>
+        </ul>
+    </mat-card-content>
 </mat-card>
